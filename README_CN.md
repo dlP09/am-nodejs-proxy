@@ -3,9 +3,11 @@
 
 - [中文文档](./README_CN.md) 
 - [视频教程](https://youtu.be/tj9uD575R80)
-- [Telegram交流群](https://t.me/AM_CLUBS)
-- [YouTube频道](https://youtube.com/@AM_CLUB)
-- [Github仓库](https://github.com/ansoncloud8)
+- AM科技官网：[https://gw.809098.xyz](官网)
+- YouTube：[https://youtube.com/@AM_CLUB](AM科技)
+- Telegram：[https://t.me/AM_CLUBS](AM_CLUBS)
+- Github：[https://github.com/ansoncloud8](ansoncloud8)
+- VLESS订阅信息：[节点订阅信息](https://worker.amcloud.filegear-sg.me/866853eb-5293-4f09-bf00-e13eb237c655)
 
 
 本自述文件解释了如何设置和使用“start.sh”脚本来管理项目组件。
@@ -46,9 +48,10 @@ cd am-nodejs-proxy
 
 | Action |  Sub-Action   |         Command         |                  Description                   |
 | :----: | :-----------: | :---------------------: | :--------------------------------------------: |
-| setup  |   xray/node   | `./start.sh setup xray` |      通过单个命令设置服务       |
-| check  |   xray/node   | `./start.sh check xray` |    检查 Cloudflared 和其他服务      |
-|  show  | xray/node/all | `./start.sh show xray`  | 显示来自 node/.env 的 VLESS 连接链接 |
+| setup  |   node/xray/cf   | `./start.sh setup node` |      通过单个命令设置服务       |
+| check  |   node/xray/cf   | `./start.sh check node` |    检查 Cloudflared 和其他服务      |
+|  show  | node/xray/all | `./start.sh show node`  | 显示来自 node/.env 的 VLESS 连接链接 |
+|  reset  | all | `./start.sh reset all`  | 通过单个命令重置停止服务    |
 
 ***NODE.JS 和 XRAY 不能同时处于活动状态。一次只能运行其中一个。***
 
