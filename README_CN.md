@@ -1,13 +1,15 @@
 # am-nodejs-proxy
+https://github.com/ansoncloud8/am-nodejs-proxy
+
 基于 Node.js 的 vless 实现包。它在各种 Node.js 环境中都能运行，包括但不限于：Windows、Linux、MacOS、Android、iOS、树莓派等。同时，它也适用于各种 PaaS 平台，如：replit、heroku 等。
 
 - [中文文档](./README_CN.md) 
 - [视频教程](https://youtu.be/tj9uD575R80)
-- AM科技官网：[https://gw.809098.xyz](官网)
-- YouTube：[https://youtube.com/@AM_CLUB](AM科技)
-- Telegram：[https://t.me/AM_CLUBS](AM_CLUBS)
-- Github：[https://github.com/ansoncloud8](ansoncloud8)
-- VLESS订阅信息：[节点订阅信息](https://worker.amcloud.filegear-sg.me/866853eb-5293-4f09-bf00-e13eb237c655)
+
+- 官网教程：[AM科技](https://am.809098.xyz)
+- YouTube频道：[@AM_CLUB](https://youtube.com/@AM_CLUB)
+- Telegram交流群：[@AM_CLUBS](https://t.me/AM_CLUBS)
+- 免费订阅：[进群发送关键字: 订阅](https://t.me/AM_CLUBS)
 
 
 本自述文件解释了如何设置和使用“start.sh”脚本来管理项目组件。
@@ -20,7 +22,7 @@
 ssh <username>@<panel>.serv00.com
 ```
 
-使用 serv00 通过电子邮件发送给您的信息。
+使用 serv00 通过电子邮件发送给您的信息,上面的username、panel换成你接收的信息。
 
 2. 启用管理权限：
 
@@ -33,8 +35,12 @@ devil binexec on
 3. 克隆仓库代码：
 
 ```
-cd domains/<username>.serv00.net
+cd domains/${USER}.serv00.net
+```
+```
 git clone https://github.com/ansoncloud8/am-nodejs-proxy.git
+```
+```
 cd am-nodejs-proxy
 ```
 
@@ -51,7 +57,11 @@ cd am-nodejs-proxy
 | setup  |   node/xray/cf   | `./start.sh setup node` |      通过单个命令设置服务       |
 | check  |   node/xray/cf   | `./start.sh check node` |    检查 Cloudflared 和其他服务      |
 |  show  | node/xray/all | `./start.sh show node`  | 显示来自 node/.env 的 VLESS 连接链接 |
-|  reset  | all | `./start.sh reset all`  | 通过单个命令重置停止服务    |
+
+查看所有节点信息
+```
+cat domains/${USER}.serv00.net/am-nodejs-proxy/node/.env
+```
 
 ***NODE.JS 和 XRAY 不能同时处于活动状态。一次只能运行其中一个。***
 
@@ -89,4 +99,17 @@ Ctrl + b, 然后是 d
 - 设置 Cron 作业用于定期维护 Node.js 和 Xray。
 - Cloudflared、Node.js 和 Xray 配置自动生成。
 - 该脚本包括端口管理和清理功能。
+
+ #
+▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
+</br>🎁 不要只是下载或Fork。请 **follow** 我的GitHub、给我所有项目一个 **Star** 星星（拜托了）！你的支持是我不断前进的动力！ 💖
+  
+ # 
+<center><details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
+*我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
+  
+- **USDT-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
+  
+</details></center>
+
 

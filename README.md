@@ -1,13 +1,18 @@
-# am-nodejs-proxy
+# [am-nodejs-proxy](https://github.com/ansoncloud8/am-nodejs-proxy)
+▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
+</br>🎁 不要只是下载或Fork。请 **follow** 我的GitHub、给我所有项目一个 **Star** 星星（拜托了）！你的支持是我不断前进的动力！ 💖
+</br>✅**解锁更多技术请访问[【个人博客】](https://am.809098.xyz)**
+#
+
 基于 Node.js 的 vless 实现包。它在各种 Node.js 环境中都能运行，包括但不限于：Windows、Linux、MacOS、Android、iOS、树莓派等。同时，它也适用于各种 PaaS 平台，如：replit、heroku 等。
 
 - [中文文档](./README_CN.md) 
 - [视频教程](https://youtu.be/tj9uD575R80)
-- AM科技官网：[https://am.809098.xyz](官网)
-- YouTube：[https://youtube.com/@AM_CLUB](AM科技)
-- Telegram：[https://t.me/AM_CLUBS](AM_CLUBS)
-- Github：[https://github.com/ansoncloud8](ansoncloud8)
-- VLESS订阅信息：[节点订阅信息](https://worker.amcloud.filegear-sg.me/866853eb-5293-4f09-bf00-e13eb237c655)
+
+- 官网教程：[AM科技](https://am.809098.xyz)
+- YouTube频道：[@AM_CLUB](https://youtube.com/@AM_CLUB)
+- Telegram交流群：[@AM_CLUBS](https://t.me/AM_CLUBS)
+- 免费订阅：[进群发送关键字: 订阅](https://t.me/AM_CLUBS)
 
 This README explains how to set up and use the `start.sh` script to manage the project components.
 
@@ -32,8 +37,12 @@ devil binexec on
 3. Clone the repository:
 
 ```
-cd domains/<username>.serv00.net
+cd domains/${USER}.serv00.net
+```
+```
 git clone https://github.com/ansoncloud8/am-nodejs-proxy.git
+```
+```
 cd am-nodejs-proxy
 ```
 
@@ -50,7 +59,11 @@ To use the script, run:
 | setup  |  node/xray/cf   | `./start.sh setup node` |       Setup services in a single command       |
 | check  |  node/xray/cf   | `./start.sh check node` |     Checks Cloudflared and other services      |
 |  show  | node/xray/all | `./start.sh show node`  | Displays VLESS connection links from node/.env |
-|  reset  | all | `./start.sh reset all`  | Reset services in a single command     |
+
+View all node information
+```
+cat domains/${USER}.serv00.net/am-nodejs-proxy/node/.env
+```
 
 ***NODE.JS AND XRAY CANNOT BE ACTIVE SIMULTANEOUSLY. ONLY ONE OF THEM SHOULD BE RUNNING AT A TIME.***
 
@@ -88,4 +101,17 @@ This key combination allows you to exit the session while leaving it running in 
 - Cron jobs are set up for periodic maintenance of Node.js and Xray.
 - Cloudflared, Node.js, and Xray configurations are generated automatically.
 - The script includes functions for port management and cleanup.
+
+ #
+▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
+</br>🎁 不要只是下载或Fork。请 **follow** 我的GitHub、给我所有项目一个 **Star** 星星（拜托了）！你的支持是我不断前进的动力！ 💖
+  
+ # 
+<center><details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
+*我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
+  
+- **USDT-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
+  
+</details></center>
+
 
